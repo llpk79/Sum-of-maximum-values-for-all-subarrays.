@@ -110,3 +110,5 @@ def do_the_thing(a):
 
 a = [1,2,4,3]
 # a = [randint(-500, 1000) for _ in range(100)]
+
+print(do_the_thing(a))
