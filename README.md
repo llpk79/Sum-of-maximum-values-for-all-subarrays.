@@ -13,13 +13,13 @@ editorial solution. :disappointed: Presented in Java, with many single letter va
 wasn't immediately helpful. I had to pick up some Java and figure this thing out for good. So, finally, 
 here is a Python solution (sum_sub_query.py) involving a sweeping line and binary indexed trees. A Java version is 
 [here](https://github.com/llpk79/sumsubmax/blob/master/src/Main.java). I'm still not quite to the point where I can clearly explain how all of the 
-math here works exactly, so I still have some work left!
+math works with the sweeping line, so I still have some work left!
 
 For O(n) solution:
 
 array = [1, 3, 2]
 
-All subarrays of array are: [1], [1, 3], [1, 2, 3], [3], [3, 2], [2]
+All subarrays of array are: [1], [1, 3], [1, 3, 2], [3], [3, 2], [2]
 
 1 is the maximum of one subarray: [1]
 
