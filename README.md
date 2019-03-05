@@ -1,7 +1,7 @@
 <h2>Sum of subarray maximums.</h2>
 
-<h4>An O(n) approach (sum_sub_max) to determine the sum of the maximum value in each subarray of an integer array and an
-O(n log n) approach (sum_sub_query) to determine the sum of subarray maximums for a number of slices of an integer 
+<h4>An O(n) approach (sum_sub_max.py) to determine the sum of the maximum value in each subarray of an integer array and an
+O(n log n) approach (sum_sub_query.py) to determine the sum of subarray maximums for a number of slices of an integer 
 array.</h4>
 
 <h5>I came about this problem on a competitive programming site where it is listed among a few "advanced" problems. 
@@ -12,8 +12,8 @@ got it with sum_sub_max, but was passing only about 30% of tests before timing o
 editorial solution. :disappointed: Presented in Java, with many single letter variable names and no commenting, it
 wasn't immediately helpful. I had to pick up some Java and figure this thing out for good. So, finally, 
 here is a Python solution involving a sweeping line and binary indexed trees. A Java version is 
-[here](https://github.com/llpk79/sumsubmax) I'm still not quite to the point where I can clearly explain how all of the 
-math here works exactly, so I still have some work left!
+[here](https://github.com/llpk79/sumsubmax/blob/master/src/Main.java). I'm still not quite to the point where I can clearly explain how all of the 
+math here works exactly, so I still have some work left!</h5>
 
 For example:
 
