@@ -221,9 +221,4 @@ class Event:
 
 
 if __name__ == "__main__":
-    array1 = [1, 3, 2]
-    queries1 = [(0, 0), (0, 1), (0, 2), (1, 1), (1, 2), (2, len(array1) - 1)]
-    solve = SumSubMaxQuery(array1, queries1)
-    # solve.save_array_info()
-    print(solve.to_left, solve.to_right)
-    solve.print_query_answers()
+    pass
