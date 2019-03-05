@@ -1,5 +1,6 @@
 """This solution is O(n**2). See sum_sub_max for an O(n) solution."""
 
+
 def distance_to_greater_value(arr: list, allow_equal: bool) -> list:
     """Creates array where each value indicates distance from arr[i] to a value in arr greater than arr[i].
 
@@ -55,5 +56,4 @@ def subarray_maximum_total(arr: list) -> int:
 
 
 if __name__ == "__main__":
-    array = [-394, 488, 477, -588, 43, 477, 488, 488, -2, 2, 39, -588, 477, 478, 488, 2, 3, 4, 5, 4, 3, 2, 1]
-    print(subarray_maximum_total(array))
+    pass
