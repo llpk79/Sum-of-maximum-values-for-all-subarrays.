@@ -4,7 +4,7 @@
 O(n log n) approach (sum_sub_query.py) to determine the sum of subarray maximums for a number of slices of an integer 
 array.</h4>
 
-<h5>I came about this problem on a competitive programming site where it is listed among a few "advanced" problems. 
+I came about this problem on a competitive programming site where it is listed among a few "advanced" problems. 
 main.py represents an attempt at this after about three months of programming experience. I returned to the problem
 a few months later and came up with a_better_way which I mistakenly thought was an O(n) solution (its O(n<sup>2</sup>)).
 I could imagine an O(n) solution, but couldn't quite get there at the time. After a few more moths of study I finally
@@ -13,7 +13,7 @@ editorial solution. :disappointed: Presented in Java, with many single letter va
 wasn't immediately helpful. I had to pick up some Java and figure this thing out for good. So, finally, 
 here is a Python solution involving a sweeping line and binary indexed trees. A Java version is 
 [here](https://github.com/llpk79/sumsubmax/blob/master/src/Main.java). I'm still not quite to the point where I can clearly explain how all of the 
-math here works exactly, so I still have some work left!</h5>
+math here works exactly, so I still have some work left!
 
 For example:
 
