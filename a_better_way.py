@@ -1,3 +1,5 @@
+"""This solution is O(n**2). See sum_sub_max for an O(n) solution."""
+
 def distance_to_greater_value(arr: list, allow_equal: bool) -> list:
     """Creates array where each value indicates distance from arr[i] to a value in arr greater than arr[i].
 

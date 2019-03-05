@@ -1,4 +1,4 @@
-from random import randint
+"""This is a terribly slow, early attempt at solving this problem. Do not use this code!"""
 
 
 def get_left(lefts, x, y):
@@ -109,6 +109,5 @@ def do_the_thing(a):
 
 
 a = [1,2,4,3]
-# a = [randint(-500, 1000) for _ in range(100)]
 
 print(do_the_thing(a))
