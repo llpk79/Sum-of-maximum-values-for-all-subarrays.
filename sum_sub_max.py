@@ -80,6 +80,4 @@ class SumSubMax:
 
 
 if __name__ == "__main__":
-    # array1 = [randint(0, 50) for _ in range(5000000)]
-    array1 = [112, 12, 13, 95, 23, 56, 34, 23, 34, 112, 65, 64, 23, 43]
-    print(SumSubMax(array1).sum_subs())
+    pass
