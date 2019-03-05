@@ -1,4 +1,4 @@
-"""This solution is O(n**2). See sum_sub_max for an O(n) solution."""
+"""This solution is O(n**2). See sum_sub_max.py for an O(n) solution."""
 
 
 def distance_to_greater_value(arr: list, allow_equal: bool) -> list:
