@@ -11,11 +11,11 @@ I could imagine an O(n) solution, but couldn't quite get there at the time. Afte
 got it with sum_sub_max, but was passing only about 30% of tests before timing out. I caved and checked out the 
 editorial solution. :disappointed: Presented in Java, with many single letter variable names and no commenting, it
 wasn't immediately helpful. I had to pick up some Java and figure this thing out for good. So, finally, 
-here is a Python solution involving a sweeping line and binary indexed trees. A Java version is 
+here is a Python solution (sum_sub_query.py) involving a sweeping line and binary indexed trees. A Java version is 
 [here](https://github.com/llpk79/sumsubmax/blob/master/src/Main.java). I'm still not quite to the point where I can clearly explain how all of the 
 math here works exactly, so I still have some work left!
 
-For example:
+For O(n) solution:
 
 array = [1, 3, 2]
 
